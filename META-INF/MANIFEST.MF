@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1396471809085
+Build-Jdk: 1.7.0_45
+Built-By: monster
+Bundle-Description: Parses Java *source code* to extract the public API.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: APIParser
+Bundle-SymbolicName: com.blockwithme.APIParser
+Bundle-Vendor: Sebastien Diot
+Bundle-Version: 0.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.blockwithme.apiparser;version="0.0.1"
+FuncGenerated012-dependency-version: 1.2.0
+Import-Package: com.thoughtworks.qdox,com.thoughtworks.qdox.model,com.th
+ oughtworks.qdox.model.impl
+Main-Class: com.blockwithme.apiparser.APIParser
+Tool: Bnd-2.1.0.20130426-122213
